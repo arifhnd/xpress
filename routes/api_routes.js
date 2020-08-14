@@ -7,7 +7,7 @@ const controller = require('./../controllers/index')
 router.get('/', function(req, res, next) {
     
     Bot.launch();
-    res.send('just hello')
+    res.send('hello world')
 })
 
 router.get('/bot', function(req, res, next) {
@@ -16,11 +16,11 @@ router.get('/bot', function(req, res, next) {
         greet: 'Bot has send a message, please check this ahuy'
     })
 })
-//test
-router.get('/new', function(req, res, next) {
+
+router.get('/just-hello', function(req, res, next) {
     Bot.launch();
     res.json({
-        greet: 'new-route'
+        greet: 'Just greet '
     })
 })
 
