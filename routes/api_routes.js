@@ -17,10 +17,10 @@ router.get('/bot', function(req, res, next) {
     })
 })
 
-router.get('/just-hello', function(req, res, next) {
+router.get('/new-route', function(req, res, next) {
     Bot.launch();
     res.json({
-        greet: 'Just tet'
+        greet: 'new-route'
     })
 })
 
