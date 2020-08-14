@@ -7,7 +7,7 @@ const controller = require('./../controllers/index')
 router.get('/', function(req, res, next) {
     
     Bot.launch();
-    res.send('hello world')
+    res.send('just hello')
 })
 
 router.get('/bot', function(req, res, next) {
