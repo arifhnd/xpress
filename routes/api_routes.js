@@ -13,7 +13,7 @@ router.get('/', function(req, res, next) {
 router.get('/bot', function(req, res, next) {
     Bot.launch();
     res.json({
-        greet: 'Bot has send a message, please check this'
+        greet: 'Bot has send a message, please check this ahuy'
     })
 })
 
