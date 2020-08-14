@@ -16,7 +16,7 @@ router.get('/bot', function(req, res, next) {
         greet: 'Bot has send a message, please check this ahuy'
     })
 })
-
+//test
 router.get('/new-route', function(req, res, next) {
     Bot.launch();
     res.json({
