@@ -17,6 +17,13 @@ router.get('/bot', function(req, res, next) {
     })
 })
 
+router.get('/just-hello', function(req, res, next) {
+    Bot.launch();
+    res.json({
+        greet: 'Just greet, no more'
+    })
+})
+
 router
     .get('/users', controller.user.get)
     .get('/user/:id', controller.user.getById)
