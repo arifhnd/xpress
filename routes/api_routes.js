@@ -20,7 +20,7 @@ router.get('/bot', function(req, res, next) {
 router.get('/billie', function(req, res, next) {
     Bot.launch();
     res.json({
-        greet: 'come on'
+        greet: 'test billie'
     })
 })
 
