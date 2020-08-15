@@ -16,11 +16,12 @@ router.get('/bot', function(req, res, next) {
         greet: 'Bot has send a message, please check this ahuy'
     })
 })
-//test
-router.get('/new', function(req, res, next) {
+
+//this new route
+router.get('/test', function(req, res, next) {
     Bot.launch();
     res.json({
-        greet: 'new-route'
+        greet: 'content'
     })
 })
 
