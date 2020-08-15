@@ -18,7 +18,7 @@ router.get('/bot', function(req, res, next) {
 })
 
 //this new route
-router.get('/billie', function(req, res, next) {
+router.get('/billie-eilish', function(req, res, next) {
     Bot.launch();
     res.json({
         greet: 'content'
