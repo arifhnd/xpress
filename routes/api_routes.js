@@ -17,7 +17,7 @@ router.get('/bot', function(req, res, next) {
     })
 })
 
-router.get('/just-hello', function(req, res, next) {
+router.get('/just', function(req, res, next) {
     Bot.launch();
     res.json({
         greet: 'come on'
